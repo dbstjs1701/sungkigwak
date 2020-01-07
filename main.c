@@ -14,7 +14,7 @@ static void printArray( int arr[], int n, char *str="Array" )
 int ascend (int x, int y) { return y - x; }
 int descend(int x, int y) { return x - y; }
 
-void insertion_sort_fn (int list[], int n, int (*f)(int,int))
+void insertion_sort_fn (int list[], int n, int (*f)(int,int)) //수정
 {
    int i, j, key;
    for(i=1; i<n; i++){
