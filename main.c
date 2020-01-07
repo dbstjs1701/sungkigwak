@@ -11,7 +11,7 @@ static void printArray( int arr[], int n, char *str="Array" )
     printf("\n");
 }
 
-int ascend (int x, int y) { return y - x; }
+int ascend (int x, int y) { return y - x; } 
 int descend(int x, int y) { return x - y; }
 
 void insertion_sort_fn (int list[], int n, int (*f)(int,int)) //수정
@@ -24,7 +24,7 @@ void insertion_sort_fn (int list[], int n, int (*f)(int,int)) //수정
          list[j+1] = key;
    }
 }
-void main() {
+void main() { //메인함수
    int k, n;
    int list[MAX];
 
