@@ -10,7 +10,7 @@ static void printArray( int arr[], int n, char *str="Array" )
        printf("%3d", arr[i]);
     printf("\n");
 }
-
+//conflict
 int ascend (int x, int y) { return y - x; } 
 int descend(int x, int y) { return x - y; }
 
