@@ -44,7 +44,7 @@ void main() {
 
    scanf("%d", &k);
    if(k<1 || k>100000) {
-      printf("다시 입력해주세요");
+      printf("다시 입력해주세요"); //네
       scanf("%d", &k);
    }
    for (int i = 0; i < k; i++) {
